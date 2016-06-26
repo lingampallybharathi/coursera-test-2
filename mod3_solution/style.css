@@ -1,0 +1,280 @@
+* {
+	box-sizing:border-box;
+	margin: 0;
+	padding:0;
+	}
+	.navbar-header{
+		font-size: 1.7em;
+		font-style: bold;
+		background-color:#808080;
+		width:1000px;
+		
+
+		padding-left: 20px
+		padding-right:20px;
+	
+
+	}
+/*	.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-brand {
+  color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+}
+.navbar-default .navbar-nav > li > a {
+  float: right;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #000000;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+/*@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-default .navbar-link {
+  color: #777;
+}
+.navbar-default .navbar-link:hover {
+  color: #333;
+}
+.navbar-default .btn-link {
+  color: #777;
+}
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+  color: #333;
+*/
+
+	.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  margin-left: 20px;
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+  text-decoration: none;
+}
+.navbar-brand h1 {
+font-size: 5vm;
+font-style: bold;
+margin-left: 10px;
+
+	}
+	.navbar-toggle {
+ position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.navbar-toggle span {
+	float: right;
+}
+.navbar-toggle:focus {
+  outline: 0;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+	}
+
+.navbar-nav {
+  margin: 7.5px -15px;
+  float: right;
+  padding-right: 30px;
+}
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  float:left;
+  padding-right: 30px
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color:#000000;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	clear :both;
+}
+#nav-list a span {
+	float: left;
+	margin-left: 100px;
+}
+#nav-list a:hover {
+	background: #ffffff;
+	text-decoration: none;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.7em;
+	clear: both;
+	margin-top: 40px;
+}
+.row {
+	width: 100%;
+}
+p {
+	font-size:1.5em;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+div.box1 {
+	width:1000px;
+	height: 1000px;
+	background-color: #808080;
+	border: 1px solid black;
+	padding-top:10px;
+	padding-left: 50px;
+	padding-right: 50px
+  padding-bottom:10px;
+  margin-right:255px;
+  margin-left:255px;
+ position: relative;
+ float: left;
+}
+div.box2 {
+	width:1000px;
+	height: 1000px;
+	background-color: #808080;
+	border: 1px solid black;
+	padding-top:10px;
+  padding-bottom:10px;
+  margin-right:25px;
+  margin-left:25px;
+ position: relative;
+ float: left;
+
+}
+div.box3 {
+	width:1000px;
+	height: 1000px;
+	background-color: #808080;
+	border: 1px solid black;
+	padding-top:10px;
+  padding-bottom:10px;
+  margin-right:25px;
+  margin-left:25px;
+ position: relative;
+ float: left;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*@media (min-width: 992px)
+{
+	.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12
+}
+{
+.col-md-12:100%
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.col-sm-12:100%;
+}
+@media (max-width:767px) {
+
+}
